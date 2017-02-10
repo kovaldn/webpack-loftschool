@@ -3,10 +3,10 @@ module.exports = function() {
     module: {
       rules: [
         {
-          test: /\.pug$/,
-          loader: 'pug-loader',
+          test: /\.(jpg|png|svg)$/,
+          loader: 'file-loader',
           options: {
-            pretty: true,
+            name: 'images/[name].[ext]'
           },
         },
       ],
