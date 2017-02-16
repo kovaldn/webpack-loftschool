@@ -1,11 +1,12 @@
 # Учебная сборка Loftschool
 
 > Сборка работает на webpack 2.2.1
+> Используйте npm или yarn для установки зависимостей и запуска webpack
 
 #### Для начала работы
 
 1. ```clone this repo```
-2. ```cd path/to/...```
-3. ```yarn```  
-4. ```npm run start``` - for developing 
-5. ```npm run build``` - for production
+2. ```cd !$```
+3. ```yarn install```  
+4. ```yarn run start``` - for developing 
+5. ```yarn run build``` - for production
